@@ -60,7 +60,8 @@ class TwittPay
             $scheme = 'https';
         }
 
-        return $scheme . '://' . $host;
+        if (empty($host)) { $host = 'checkout.twittpay.com'; }
+        return 'https://' . $host;
     }
 
     /**
