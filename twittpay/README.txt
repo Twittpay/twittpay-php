@@ -16,7 +16,6 @@
  SETUP
    1. Open twittpay/config.php and fill in three things:
         TWITTPAY_API_KEY    Dashboard -> Brands -> your brand
-        TWITTPAY_BASE_URL   your gateway domain, e.g. https://checkout.twittpay.com
         TWITTPAY_SELF_URL   the public URL of this folder, with a trailing slash
    2. Open https://yourdomain.com/twittpay/ in a browser. You should land on
       the checkout page.
